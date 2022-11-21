@@ -1,0 +1,61 @@
+html{
+    font-size: 10px;
+}
+.card{
+    width: 40rem;
+    height: 25rem;
+    text-align: center;
+    margin: 15rem auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:white;
+}
+body{
+    background-color: dodgerblue;
+}
+.card img{
+    width: 30rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translate(0px,-35px);
+}
+.card:hover p{
+    color: grey;
+    transition-duration: 0.5s;
+    opacity: 1;
+
+}
+.card:hover h1{
+    color: lightblue;
+    transition-duration: 0.5s;
+    opacity: 1;
+
+}
+.card:hover{
+    padding-bottom: 2rem;
+    padding-top: 10rem;
+    transition-duration: 0.5s;
+}
+.card p{
+    padding: 1rem 4rem 0rem;
+    margin: 0;
+    opacity: 0;
+    
+}
+/* p:hover{
+padding-top: 10rem;
+padding-bottom: 10rem;
+opacity: 1;
+transition: opacity 2s ease-out;
+} */
+h1{
+    padding: 0rem 4rem;
+    margin-top: -12rem;
+    opacity: 0;
+    
+}
+.card:hover img{
+    transform: translate(0,-18rem);
+    transition-duration: 0.5s;
+}
